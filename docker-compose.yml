@@ -8,6 +8,7 @@ services:
       discovery.type: single-node
     ports:
       - 9200:9200
+      - 9300:9300
 
   kibana:
     build: ./kibana
@@ -23,7 +24,11 @@ services:
       TZ: 'Asia/Tokyo'
     ports:
       - 3306:3306
+      - 33060:33060
 
   logstash:
     build: ./logstash
     container_name: logstash
+    ports:
+      - 5044:5044
+      - 9600:9600
