@@ -23,3 +23,7 @@ services:
       TZ: 'Asia/Tokyo'
     ports:
       - 3306:3306
+
+  logstash:
+    build: ./logstash
+    container_name: logstash
