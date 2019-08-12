@@ -12,7 +12,7 @@ Everywhere only if docker is enabled.
 # start containers and process
 make start
 
-# delete all containers, volunes, networks, and images
+# delete all containers, volumes, networks, and images
 make prune
 ```
 
