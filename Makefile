@@ -1,6 +1,6 @@
 .PHONY: start
 start:
-	docker-compose up
+	docker-compose up --build
 
 .PHONY: prune
 prune:
