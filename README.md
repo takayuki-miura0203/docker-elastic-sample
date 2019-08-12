@@ -1,6 +1,6 @@
 # docker-elastic-sample
 
-> A sample which bring database data to elasticsearch by logstash.
+> A sample which transfers database data to elasticsearch by logstash.
 
 ## usage
 
