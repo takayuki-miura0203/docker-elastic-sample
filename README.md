@@ -2,10 +2,14 @@
 
 > A sample which transfers database data to elasticsearch by logstash.
 
+## environment
+
+Everywhere only if docker is enabled.
+
 ## usage
 
 ```bash
-# start containers
+# start containers and process
 make start
 
 # delete all containers, volunes, networks, and images
